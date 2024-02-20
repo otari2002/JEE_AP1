@@ -10,9 +10,10 @@ public class MetierImpl implements IMetier {
     public MetierImpl(IDao dao) {
         this.dao = dao;
     }
+    public MetierImpl() {
+    }
     @Override
     public Date calcul() {
-
         return dao.getDate();
     }
     public void setDao(IDao dao) {

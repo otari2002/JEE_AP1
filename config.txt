@@ -1,0 +1,2 @@
+com.omar.jee_ap1.dao.DaoImpl
+com.omar.jee_ap1.metier.MetierImpl

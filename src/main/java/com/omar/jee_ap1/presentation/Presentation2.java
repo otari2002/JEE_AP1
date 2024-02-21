@@ -15,8 +15,10 @@ public class Presentation2 {
             String daoClassName = scanner.nextLine();
             Class cDao = Class.forName(daoClassName);
             IDao dao = (IDao) cDao.getDeclaredConstructor().newInstance();
+            System.out.println("Classe dao : "+ daoClassName);
             String metierClassName = scanner.nextLine();
             Class cMetier = Class.forName(metierClassName);
+            System.out.println("Classe metier : "+ metierClassName);
             IMetier metier = (IMetier) cMetier.getDeclaredConstructor().newInstance();
             Method method = cMetier.getMethod("setDao", IDao.class);
             method.invoke(metier, dao);

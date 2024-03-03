@@ -1,7 +1,5 @@
 # AP N°1 : Inversion de contrôle et Injection des dépendances
 
-## Partie 1
-
 Ce projet Java vise à illustrer l'implémentation d'une architecture basique utilisant des interfaces, des implémentations, et l'injection de dépendances. Les principales fonctionnalités du projet comprennent la création d'interfaces `IDao` et `IMetier`, leurs implémentations respectives, et l'injection de dépendances de différentes manières.<br>
 
 1. **Création de l'interface IDao avec une méthode getDate :** <br>
